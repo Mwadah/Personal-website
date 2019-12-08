@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="app.css">
+    </head>
+    <body>
+        <div id="toggle-menu">
+            <div id="first" class="original-position"></div>
+            <div id="second" class="original-position"></div>
+            <div id="third" class="original-position"></div>
+        </div>
+        <div id="menu" class="">
+            <div class="link home-link">
+                <i class="home-icon" style="font-size: 18px;">&#xf015;</i>
+                <a class="home-text" style="left: -7px;" onclick="relocate(home)">home</a>
+            </div>
+            <div class="link about-link">
+                <i class="about-icon" style="font-size: 16px;">&#xf007;</i>
+                <a class="about-text" style="left: -7px;" onclick="relocate(about)">about</a>
+            </div>
+            <div class="link skills-link">
+                <i class="skills-icon" style="font-size: 17px;">&#xf013;</i>
+                <a class="skills-text" style="left: -5px;" onclick="relocate(skills)">skills</a>
+            </div>
+            <div class="link portfolio-link">
+                <i class="portfolio-icon" style="font-size: 16px;">&#xf12e;</i>
+                <a class="portfolio-text" style="left: -16px;">Portfolio</a>
+            </div>
+            <div class="link contact-link">
+                <i class="contact-icon" style="font-size: 12px;">&#xf2b6;</i>
+                <a class="contact-text" style="left: -12px;" onclick="relocate(contact)">contact</a>
+            </div>
+        </div>
+        <div id="fixed-logo">
+            <img src="images/logo.png">
+        </div>
+        <div class="background">
+            <div class="lined-overlay">
+                <div class="overlay-first-line"></div>
+                <div class="overlay-second-line"></div>
+                <div class="overlay-third-line"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div id='home'>
+                <div class="home-title">
+                    <h1>Mawadah Osman</h1>
+                    <span>full stack web developer</span>
+                </div>
+                <div class="vertical-text">
+                    <div></div>
+                    <span>Share with love</span>
+                </div>
+            </div>
+            <div id='about'>
+                <h1>About me<b>:</b></h1>
+                <p>I am a person who is driven by her passion to always learn exciting, <b>challenging</b> and interesting things. A person who enjoys being <b>creative</b> and turning complex problems into tiny tasks. And that is exactly what nurtured my <b>love</b> to coding.</p>
+                <p>Coding for me is an <b>imaginary</b> world where awesome ideas brought to life. It learns us to believe in our capabilities, stay positive and keep the mind wheels turning searching for <b style="color: #179a17;">alien</b> yet logical solutions.</p>
+                <p>When I am not coding, I learn languages, read books, develop myself in certain areas or just navigating randomly in my phone.</p>
+            </div>
+            <div id="skills">
+                <h1>Skills<b>:</b></h1>
+                <p>I mainly work in front-end developing, but i am generaly interested in full-stack development field. I believe that every project being it small or huge, should be done with passion and patience, that is why i enjoy the most building websites from scratch.</p>
+                <div class="skills-wrapper">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JAVASCRIPT</span>
+                    <span>JQUERY</span>
+                    <span>GIT</span>
+                    <span>GITHUB</span>
+                    <span>MYSQL</span>
+                    <span>POSTGRESQL</span>
+                    <span>POPSQL</span>
+                    <span>PHP</span>
+                    <span>PYTHON</span>
+                    <span>UI</span>
+                    <span>RESPONSIVE DESIGN</span>
+                </div>
+            </div>
+            <div id='contact'>
+                <h1>Get in toutch<b>!</b></h1>
+                <p>I am ever interested in working on <b>ambitious</b>, <b>cool</b> projects with <b>great</b> people, so if you have one and you need help feel free to contact me. Or if you just have a question, please do ask and i will be more than happy to give you an answer.</p>
+                <div class="form-wrapper">
+                    <h2>Leave a message.</h2>
+                    <form>
+                        <input placeholder="Name" type="name">
+                        <input placeholder="Subject" type="text">
+                        <input placeholder="Email" type="Email">
+                        <textarea placeholder="Message"></textarea>
+                        <button>SEND</button>
+                    </form>
+                </div>
+            </div>
+            <div id="loading-overlay">
+                <div style="margin: auto; text-align: center;">
+                    <img src="images/logo.png" style="width: 38px; position: relative; top: 4px;">
+                    <h1 style="font-family: 'Open Sans', sans-serif; font-size: 14px; margin: 0px; color: #f2f3ce;">Mawadah Osman</h1>
+                    <div class="loading-line-wrapper">
+                        <svg height="2px" width="250px">
+                            <line id="loading-line" x1="-10" y1="0" x2="0" y2="2">
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="loading-overlay" class="">
+            <div class="loading-overlay-content">
+                <img src="images/logo.png">
+                <h1>Mawadah Osman</h1>
+                <div class="loading-line-wrapper">
+                    <svg height="2px" width="250px">
+                        <line id="loading-line" x1="-10" y1="0" x2="0" y2="2">
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
