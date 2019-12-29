@@ -31,7 +31,7 @@ var about= document.getElementById("about");
 var skills= document.getElementById("skills");
 var portfolio= document.getElementById("portfolio");
 var contact= document.getElementById("contact");
-var pagesArray= [home, about, skills, contact];
+var pagesArray= [home, about, skills, portfolio, contact];
 
 
 /* b-functions */
