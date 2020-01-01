@@ -41,6 +41,8 @@ function relocate(goTo) {
 	secondLine.classList.toggle('original-position');	
 	thirdLine.classList.toggle('original-position');
 
+	loadingLine.setAttribute('x2', 0);
+
 	setTimeout(function() {
 		for (var i= 0; i < pagesArray.length; i++) {
 			pagesArray[i].style.transform= "translateY(-2000px)";

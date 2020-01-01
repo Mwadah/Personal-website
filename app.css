@@ -26,7 +26,7 @@ html, body {
 	    flex-wrap: wrap;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
-	background-color: #030817;
+	background-color: rgb(2, 23, 60);
 	z-index: 1;
 }
 
@@ -160,7 +160,7 @@ html, body {
 	position: fixed;
 	top: 18px;
 	left: 20px;
-	background-color: #030817;
+	background-color: rgb(2, 23, 60);
 	z-index: 1;
 }
 
@@ -175,7 +175,7 @@ html, body {
 .background {
 	height: 100vh;
 	width: 100%;
-	background-color: #030817;
+	background-color: rgb(2, 23, 60);
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -191,7 +191,7 @@ html, body {
 		height: 100%;
 		position: absolute;
 		top: 0;
-		background-color: #ded1a805;
+		background-color: rgba(242, 243, 206, 0.05);
 	}
 
 	.overlay-first-line::before {
@@ -454,17 +454,17 @@ html, body {
 	/* b-works wrapper */
 	.works-wrapper {
 		width: 100%;
-		max-width: 900px;
-		margin: auto;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
 		-ms-flex-wrap: wrap;
 		    flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.single-work {
-		width: 50%;
+		width: 100%;
+		max-width: 300px;
 	}
 
 		/* single work content */
@@ -477,7 +477,7 @@ html, body {
 		}
 
 		.work-num div {
-			width: 80%;
+			width: 70%;
 			height: 2px;
 			background-color: #ded1a8b8;
 			margin: auto 10px;
