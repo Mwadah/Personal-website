@@ -38,7 +38,7 @@ html, body {
 	/* a-btn lines */
 	#first, #second, #third {
 		height: 2px;
-		background-color: rgb(242, 243, 206);
+		background-color: rgb(118, 119, 93);
 		margin: auto 0;
 		-webkit-transition: 0.6s all;
 		-o-transition: 0.6s all;
@@ -83,7 +83,7 @@ html, body {
 	background-color: transparent;
 	position: fixed;
 	top: 80px;
-	right: 31.2px;
+	right: 18px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -109,6 +109,7 @@ html, body {
 
     /* a-links */
     .link {
+    	width: 45px;
 	    text-align: center;
 	    margin: auto 0;
 	    position: relative;
@@ -117,7 +118,7 @@ html, body {
     .link i {
 	    font-family: FontAwesome;
 	    font-style: normal;
-	    color: rgb(235, 86, 97);
+	    color: rgb(107, 22, 29);
 	    opacity: 1;
 	    -webkit-transition: 0.3s all;
 	    -o-transition: 0.3s all;
@@ -126,10 +127,12 @@ html, body {
 
     .link a {
     	position: absolute;
+    	top: 0px;
+    	left: 0px;
     	text-decoration: none;
     	font-family: 'Open Sans Condensed', sans-serif;
     	font-weight: bold;
-    	color: rgba(242, 243, 206, 0.5411764705882353);
+    	color: rgb(118, 119, 93);
     	opacity: 0;
     	-webkit-transition: 0.3s all;
     	-o-transition: 0.3s all;
@@ -191,7 +194,7 @@ html, body {
 		height: 100%;
 		position: absolute;
 		top: 0;
-		background-color: rgba(242, 243, 206, 0.05);
+		background-color: rgba(118, 119, 93, 0.09);
 	}
 
 	.overlay-first-line::before {
@@ -245,7 +248,7 @@ html, body {
 		width: 100%;
 		margin: auto 0px;
 		padding: 0px 0px 40px;
-		color: rgb(242, 243, 206);
+		color: rgb(118, 119, 93);
 		text-align: center;
 	}
 
@@ -280,14 +283,14 @@ html, body {
 		width: 70px;
 		height: 1px;
 		margin: auto 8px auto 0px;
-		background-color: rgba(242, 243, 206, 0.64);
+		background-color: rgb(118, 119, 93);
 	}
 
 	.vertical-text span {
 		font-family: 'Open Sans', sans-serif;
 		font-weight: bold;
 		font-size: 14px;
-		color: rgba(235, 85, 98, 0.38);
+		color: rgba(107, 22, 29, 0.67);
 	}
 
 
@@ -712,7 +715,7 @@ html, body {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 14px;
 		margin: 0px;
-		color: #f2f3ce;
+		color: rgb(118, 119, 93);
 	}
 
 
@@ -721,7 +724,7 @@ html, body {
 		width: 250px;
 		height: 2px;
 		margin: 15px 0px;
-		background-color: #eb556269;
+		background-color: rgba(107, 21, 29, 0.35);
 		position: relative;
 	}
 
@@ -732,6 +735,6 @@ html, body {
 	}
 
 	.loading-line-wrapper line {
-		stroke: #eb5562;
+		stroke: rgb(107, 21, 29);
 		stroke-width: 4px;
 	}
