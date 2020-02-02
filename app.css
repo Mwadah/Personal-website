@@ -319,7 +319,7 @@ html, body {
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
-		color: rgb(242, 243, 206);
+		color: rgb(119, 119, 93);
 		font-size: 36px;
 		letter-spacing: 1px;
 	}
@@ -327,7 +327,7 @@ html, body {
 	#about h1 b {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 32px;
-		color: rgb(235, 85, 98);
+		color: rgb(107, 21, 29);
 	}
 
 
@@ -338,11 +338,11 @@ html, body {
 		margin: 28px auto;
 		font-size: 20px;
 		font-family: 'Open Sans', sans-serif;
-		color: rgb(242, 243, 206);
+		color: rgb(119, 119, 93);
 	}
 
 	#about p b {
-		color: rgb(235, 85, 98);
+		color: rgb(107, 21, 29);
 	}
 
 
@@ -371,7 +371,7 @@ html, body {
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
-		color: rgb(242, 243, 206);
+		color: rgb(119, 119, 93);
 		font-size: 36px;
 		letter-spacing: 1px;
 	}
@@ -379,7 +379,7 @@ html, body {
 	#skills h1 b {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 32px;
-		color: rgb(235, 85, 98);
+		color: rgb(107, 21, 29);
 	}
 
 
@@ -390,7 +390,7 @@ html, body {
 		margin: 28px auto;
 		font-size: 20px;
 		font-family: 'Open Sans', sans-serif;
-		color: rgb(242, 243, 206);
+		color: rgb(119, 119, 93);
 	}
 
 
@@ -408,10 +408,10 @@ html, body {
 
 	.skills-wrapper span {
 		font-family: 'Open Sans', sans-serif;
-		color: rgba(242, 243, 206, 0.73);
+		color: rgba(119, 119, 93, 0.73);
 		font-size: 16px;
 		font-weight: bold;
-		background-color: rgba(235, 85, 98, 0.6588235294117647);
+		background-color: rgba(107, 21, 29, 0.64);
 		padding: 4px 10px;
 		margin: 5px 4px;
 	}
@@ -442,7 +442,7 @@ html, body {
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
-		color: #ded1a8;
+		color: rgb(119, 119, 93);
 		font-size: 36px;
 		letter-spacing: 1px;
 	}
@@ -450,7 +450,7 @@ html, body {
 	#portfolio h1 b {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 32px;
-		color: #eb5562;
+		color: rgb(107, 21, 29);
 	}
 
 
@@ -482,14 +482,15 @@ html, body {
 		.work-num div {
 			width: 70%;
 			height: 2px;
-			background-color: #ded1a8b8;
+			background-color: rgba(119, 119, 93, 0.7803921568627451);
 			margin: auto 10px;
 		}
 
 		.work-num span {
-			color: #eb5562;
+			color: rgb(107, 21, 29);
 			font-family: "Open Sans", sans-serif;
 			font-size: 20px;
+			font-weight: bold;
 		}
 
 		.work-name {
@@ -500,13 +501,13 @@ html, body {
 			font-size: 22px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 200;
-			color: #ded1a8ba;
+			color: rgb(119, 119, 93);
 			margin: 5px 0px;
 		}
 
 		.work-name span {
 			font-family: 'Open Sans', sans-serif;
-			color: #ded1a87a;
+			color: rgb(119, 119, 93);
 			font-size: 12px;
 			font-weight: 200;
 			letter-spacing: 1px;
@@ -520,8 +521,9 @@ html, body {
 		.view-work a {
 			text-decoration: none;
 			font-family: 'Open Sans', sans-serif;
-			color: #eb55629c;
+			color: rgba(107, 21, 29, 0.72);
 			font-size: 16px;
+			font-weight: bold;
 		}
 
 
@@ -552,7 +554,7 @@ html, body {
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
-		color: #ded1a8;
+		color: rgb(119, 119, 93);
 		font-size: 36px;
 		letter-spacing: 1px;
 	}
@@ -560,7 +562,7 @@ html, body {
 	#contact h1 b {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 32px;
-		color: #eb5562;
+		color: rgb(107, 21, 29);
 	}
 
 
@@ -571,11 +573,11 @@ html, body {
 		margin: 28px auto;
 		font-size: 20px;
 		font-family: 'Open Sans', sans-serif;
-		color: #ded1a8;
+		color: rgb(119, 119, 93);
 	}
 
 	#contact p b {
-		color: #eb5562;
+		color: rgb(107, 21, 29);
 	}
 
 
@@ -592,7 +594,7 @@ html, body {
 			margin: 0px auto;
 			font-family: 'Open Sans', sans-serif;
 			font-size: 16px;
-			color: #eb5562;
+			color: rgb(107, 21, 29);
 		}
 
 		/* actual form */
@@ -606,9 +608,9 @@ html, body {
 			-webkit-box-sizing: border-box;
 			        box-sizing: border-box;
 			margin: 25px 0px 0px;
-			background-color: #ded1a88c;
+			background-color: rgba(0, 0, 0, 0.0784313725490196);
 			border: none;
-			border-left: solid 2px #eb5562;
+			border-left: solid 2px rgba(107, 21, 29, 0.45);
 			outline: none;
 			font-family: 'Open Sans', sans-serif;
 		}
@@ -620,43 +622,38 @@ html, body {
 		}
 
 		input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-			color: #ded1a8;
+			color: rgba(119, 119, 93, 0.48);
 			font-size: 14px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
-			color: #ded1a878;
 		}
 
 		input::-moz-placeholder, textarea::-moz-placeholder {
-			color: #ded1a8;
+			color: rgba(119, 119, 93, 0.48);
 			font-size: 14px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
-			color: #ded1a878;
 		}
 
 		input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-			color: #ded1a8;
+			color: rgba(119, 119, 93, 0.48);
 			font-size: 14px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
-			color: #ded1a878;
 		}
 
 		input::-ms-input-placeholder, textarea::-ms-input-placeholder {
-			color: #ded1a8;
+			color: rgba(119, 119, 93, 0.48);
 			font-size: 14px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
-			color: #ded1a878;
 		}
 
 		input::placeholder, textarea::placeholder {
-			color: #ded1a8;
+			color: rgba(119, 119, 93, 0.48);
 			font-size: 14px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
-			color: #ded1a878;
 		}
 
 		textarea {
@@ -670,9 +667,9 @@ html, body {
 			padding: 4px 10px;
 			font-family: 'Open Sans', sans-serif;
 			font-size: 14px;
-			color: #ded1a8;
-			background-color: #eb5562;
-			border: 1px solid #ded1a8;
+			color: rgb(119, 119, 93);
+			background-color: rgb(107, 21, 29);
+			border: 1px solid rgb(119, 119, 93);
 			outline: none;
 		}
 
