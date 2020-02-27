@@ -115,7 +115,7 @@ html, body {
     .link i {
 	    font-family: FontAwesome;
 	    font-style: normal;
-	    color: #b7525c;
+	    color: rgb(107, 22, 29);
 	    opacity: 1;
 	    -webkit-transition: 0.3s all;
 	    -o-transition: 0.3s all;
@@ -341,7 +341,7 @@ html, body {
 	}
 
 	#about p b {
-		color: rgb(130, 54, 54);
+		color: rgb(101, 46, 46);
 	}
 
 
@@ -810,3 +810,10 @@ html, body {
 	}
 
 }
+
+
+
+/*
+rgb(130, 54, 54)
+rgb(101, 46, 46)
+*/
