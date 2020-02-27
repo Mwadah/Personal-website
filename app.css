@@ -436,8 +436,8 @@ html, body {
 	/* a-portfolio title */
 	#portfolio h1 {
 		width: 100%;
-		max-width: 800px;
-		padding: 0px 0px 20px 0px;
+		max-width: 600px;
+		padding: 0px 0px 30px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
 		color: rgb(119, 119, 93);
@@ -466,6 +466,7 @@ html, body {
 	.single-work {
 		width: 100%;
 		max-width: 300px;
+		margin : 12px 0px;
 	}
 
 		/* single work content */
@@ -478,7 +479,7 @@ html, body {
 		}
 
 		.work-num div {
-			width: 70%;
+			width: 80%;
 			height: 2px;
 			background-color: rgba(119, 119, 93, 0.7803921568627451);
 			margin: auto 10px;
@@ -548,7 +549,7 @@ html, body {
 	/* a-contact title */
 	#contact h1 {
 		width: 100%;
-		max-width: 800px;
+		max-width: 400px;
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
@@ -567,7 +568,7 @@ html, body {
 	/* c-form */
 	.form-wrapper {
 		width: 100%;
-		max-width: 400px;
+		max-width: 300px;
 		margin: 0px auto;
 	}
 
@@ -588,45 +589,46 @@ html, body {
 			border-radius: 8px;
 			outline: none;
 			font-family: 'Open Sans', sans-serif;
+			color: #76775d;
+			font-size: 16px;
 		}
 
 		input {
 			height: 40px;
 			padding: 2px 10px;
-			color: #ded1a8;
 		}
 
 		input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 			color: rgba(119, 119, 93, 0.48);
-			font-size: 14px;
+			font-size: 16px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
 		}
 
 		input::-moz-placeholder, textarea::-moz-placeholder {
 			color: rgba(119, 119, 93, 0.48);
-			font-size: 14px;
+			font-size: 16px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
 		}
 
 		input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 			color: rgba(119, 119, 93, 0.48);
-			font-size: 14px;
+			font-size: 16px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
 		}
 
 		input::-ms-input-placeholder, textarea::-ms-input-placeholder {
 			color: rgba(119, 119, 93, 0.48);
-			font-size: 14px;
+			font-size: 16px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
 		}
 
 		input::placeholder, textarea::placeholder {
 			color: rgba(119, 119, 93, 0.48);
-			font-size: 14px;
+			font-size: 16px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
 		}
@@ -634,7 +636,6 @@ html, body {
 		textarea {
 			height: 120px;
 			padding: 6px 10px;
-			color: #ded1a8;
 		}
 
 		button {
@@ -736,12 +737,28 @@ html, body {
 		font-size: 18px;
 	}
 
-	#about h1, #skills h1 {
+	#about h1, #skills h1, #contact h1, #portfolio h1 {
 		font-size: 42px;
 	}
 
 	#about p, #skills p {
 		font-size: 22px;
+	}
+
+	.work-num span {
+		font-size: 22px;
+	}
+
+	.work-name h2 {
+		font-size: 26px;
+	}
+
+	.work-name span {
+		font-size: 14px;
+	}
+
+	.view-work a {
+		font-size: 18px;
 	}
 
 }
@@ -757,7 +774,7 @@ html, body {
 		font-size: 42px;
 	}
 
-	#about h1, #skills h1 {
+	#about h1, #skills h1, #contact h1 {
 		font-size: 48px;
 	}
 
