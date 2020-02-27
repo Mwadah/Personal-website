@@ -313,7 +313,7 @@ html, body {
 	/* a-about title */
 	#about h1 {
 		width: 100%;
-		max-width: 800px;
+		max-width: 1000px;
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
@@ -332,7 +332,7 @@ html, body {
 	/* b-about paragraf */
 	#about p {
 		width: 100%;
-		max-width: 800px;
+		max-width: 1000px;
 		margin: 28px auto;
 		font-size: 20px;
 		font-family: 'Open Sans', sans-serif;
@@ -365,7 +365,7 @@ html, body {
 	/* a-skills title */
 	#skills h1 {
 		width: 100%;
-		max-width: 800px;
+		max-width: 1000px;
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
@@ -384,7 +384,7 @@ html, body {
 	/* b-skills paragraf */
 	#skills p {
 		width: 100%;
-		max-width: 800px;
+		max-width: 1000px;
 		margin: 28px auto;
 		font-size: 20px;
 		font-family: 'Open Sans', sans-serif;
@@ -395,7 +395,7 @@ html, body {
 	/* c-skills wrapper */
 	.skills-wrapper {
 		width: 100%;
-		max-width: 800px;
+		max-width: 1000px;
 		margin: 10px auto;
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -410,7 +410,7 @@ html, body {
 		font-size: 16px;
 		font-weight: bold;
 		background-color: rgba(107, 21, 29, 0.64);
-		padding: 4px 10px;
+		padding: 5px 12px;
 		margin: 5px 4px;
 	}
 
@@ -582,9 +582,10 @@ html, body {
 			-webkit-box-sizing: border-box;
 			        box-sizing: border-box;
 			margin: 25px 0px 0px;
-			background-color: rgba(0, 0, 0, 0.0784313725490196);
+			background-color: rgba(0, 0, 0, 0.43);
 			border: none;
-			border-left: solid 2px rgba(107, 21, 29, 0.45);
+			border-left: solid 2px rgba(107, 21, 29, 0.85);
+			border-radius: 8px;
 			outline: none;
 			font-family: 'Open Sans', sans-serif;
 		}
@@ -638,9 +639,10 @@ html, body {
 
 		button {
 			margin: 20px;
-			padding: 4px 10px;
+			display: block;
+			padding: 6px 15px;
 			font-family: 'Open Sans', sans-serif;
-			font-size: 14px;
+			font-size: 18px;
 			color: rgb(119, 119, 93);
 			background-color: rgb(107, 21, 29);
 			border: 1px solid rgb(119, 119, 93);
@@ -726,6 +728,22 @@ html, body {
 		left: 5%;
 	}
 
+	.home-title h1 {
+		font-size: 38px;
+	}
+
+	.home-title span {
+		font-size: 18px;
+	}
+
+	#about h1, #skills h1 {
+		font-size: 42px;
+	}
+
+	#about p, #skills p {
+		font-size: 22px;
+	}
+
 }
 
 @media screen and (min-width: 600px) {
@@ -733,6 +751,18 @@ html, body {
 	#fixed-logo {
 		left: 4%;
 		width: 62px;
+	}
+
+	.home-title h1 {
+		font-size: 42px;
+	}
+
+	#about h1, #skills h1 {
+		font-size: 48px;
+	}
+
+	#about p, #skills p {
+		font-size: 24px;
 	}
 
 }
