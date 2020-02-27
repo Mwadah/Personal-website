@@ -157,16 +157,16 @@ html, body {
 
 /* 4-logo */
 #fixed-logo {
-	height: 46px;
+	width: 58px;
 	position: fixed;
-	top: 18px;
-	left: 20px;
+	top: 3%;
+	left: 6%;
 	background-color: rgb(3, 18, 45);
 	z-index: 1;
 }
 
 #fixed-logo img {
-	height: 100%;
+	width: 100%;
 }
 
 
@@ -265,8 +265,8 @@ html, body {
 	/* b-vertical text */
 	.vertical-text {
 		position: fixed;
-		bottom: 80px;
-		left: -55px;
+		bottom: 85px;
+		left: -40px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -287,7 +287,7 @@ html, body {
 	.vertical-text span {
 		font-family: 'Open Sans', sans-serif;
 		font-weight: bold;
-		font-size: 14px;
+		font-size: 16px;
 		color: rgba(107, 22, 29, 0.67);
 	}
 
@@ -715,3 +715,24 @@ html, body {
 		stroke: rgb(107, 21, 29);
 		stroke-width: 4px;
 	}
+
+
+
+
+/* 6-media query */
+@media screen and (min-width: 450px) {
+
+	#fixed-logo {
+		left: 5%;
+	}
+
+}
+
+@media screen and (min-width: 600px) {
+
+	#fixed-logo {
+		left: 4%;
+		width: 62px;
+	}
+
+}
