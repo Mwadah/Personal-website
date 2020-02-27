@@ -115,7 +115,7 @@ html, body {
     .link i {
 	    font-family: FontAwesome;
 	    font-style: normal;
-	    color: rgb(107, 22, 29);
+	    color: #b7525c;
 	    opacity: 1;
 	    -webkit-transition: 0.3s all;
 	    -o-transition: 0.3s all;
@@ -341,7 +341,7 @@ html, body {
 	}
 
 	#about p b {
-		color: rgb(107, 21, 29);
+		color: rgb(130, 54, 54);
 	}
 
 
@@ -687,14 +687,14 @@ html, body {
 	}
 
 	.loading-overlay-content img {
-		width: 38px;
+		width: 40px;
 		position: relative;
 		top: 4px;
 	}
 
 	.loading-overlay-content h1 {
 		font-family: 'Open Sans', sans-serif;
-		font-size: 14px;
+		font-size: 15px;
 		margin: 0px;
 		color: rgb(118, 119, 93);
 	}
