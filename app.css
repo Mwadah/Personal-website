@@ -12,18 +12,16 @@ html, body {
 
 /* 2-toggle menu */
 #toggle-menu {
-	width: 36px;
-	height: 34px;
+	width: 40px;
+	height: 35px;
 	position: fixed;
-	top: 25px;
-	right: 22px;
+	top: 6vh;
+	right: 7%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-wrap: wrap;
 	    flex-wrap: wrap;
-	-ms-flex-pack: distribute;
-	    justify-content: space-around;
 	background-color: rgb(3, 18, 45);
 	z-index: 1;
 }
@@ -45,9 +43,9 @@ html, body {
 
 	#first {
 		width: 100%;
-		-webkit-transform: translateY(11px) rotate(45deg);
-		    -ms-transform: translateY(11px) rotate(45deg);
-		        transform: translateY(11px) rotate(45deg);
+		-webkit-transform: translateY(12px) rotate(45deg);
+		    -ms-transform: translateY(12px) rotate(45deg);
+		        transform: translateY(12px) rotate(45deg);
 	}
 
 	#second {
@@ -60,9 +58,9 @@ html, body {
 
 	#third {
 		width: 100%;
-		-webkit-transform: translateY(-11px) rotate(-45deg);
-		    -ms-transform: translateY(-11px) rotate(-45deg);
-		        transform: translateY(-11px) rotate(-45deg);
+		-webkit-transform: translateY(-12px) rotate(-45deg);
+		    -ms-transform: translateY(-12px) rotate(-45deg);
+		        transform: translateY(-12px) rotate(-45deg);
 	}
 
 	.original-position {
@@ -77,11 +75,12 @@ html, body {
 /* 3-menu */
 #menu {
 	height: 70%;
-	min-height: 320px;
+	min-height: 350px;
+	max-height: 640px;
 	background-color: transparent;
 	position: fixed;
 	top: 80px;
-	right: 18px;
+	right: 6.4%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -121,6 +120,7 @@ html, body {
 	    -webkit-transition: 0.3s all;
 	    -o-transition: 0.3s all;
 	    transition: 0.3s all;
+	    position: relative;
     }
 
     .link a {
@@ -131,6 +131,7 @@ html, body {
     	font-family: 'Open Sans Condensed', sans-serif;
     	font-weight: bold;
     	color: rgb(118, 119, 93);
+    	font-size: 18px;
     	opacity: 0;
     	-webkit-transition: 0.3s all;
     	-o-transition: 0.3s all;
@@ -159,7 +160,7 @@ html, body {
 #fixed-logo {
 	width: 58px;
 	position: fixed;
-	top: 3%;
+	top: 4vh;
 	left: 6%;
 	background-color: rgb(3, 18, 45);
 	z-index: 1;
@@ -192,7 +193,7 @@ html, body {
 		height: 100%;
 		position: absolute;
 		top: 0;
-		background-color: rgba(118, 119, 93, 0.09);
+		background-color: rgba(118, 119, 93, 0.12);
 	}
 
 	.overlay-first-line::before {
@@ -549,7 +550,7 @@ html, body {
 	/* a-contact title */
 	#contact h1 {
 		width: 100%;
-		max-width: 400px;
+		max-width: 300px;
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
@@ -729,6 +730,14 @@ html, body {
 		left: 5%;
 	}
 
+	#toggle-menu {
+		right: 6%;
+	}
+
+	#menu {
+		right: 5.5%;
+	}
+
 	.home-title h1 {
 		font-size: 38px;
 	}
@@ -768,6 +777,24 @@ html, body {
 	#fixed-logo {
 		left: 4%;
 		width: 62px;
+	}
+
+	#toggle-menu {
+		right: 5%;
+		height: 40px;
+		width: 45px;
+	}
+
+	#menu {
+		right: 5%;
+	}
+
+	#first {
+		transform: translateY(13px) rotate(45deg);
+	}
+
+	#third {
+		transform: translateY(-13px) rotate(-45deg);
 	}
 
 	.home-title h1 {
