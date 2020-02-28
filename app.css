@@ -162,7 +162,7 @@ html, body {
 	position: fixed;
 	top: 4vh;
 	left: 6%;
-	background-color: rgb(3, 18, 45);
+	background-color: green;
 	z-index: 1;
 }
 
@@ -544,6 +544,7 @@ html, body {
 	-webkit-transform: translateY(0px);
 	    -ms-transform: translateY(0px);
 	        transform: translateY(0px);
+	-webkit-transition: -webkit-transform 2s ease-out;
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
