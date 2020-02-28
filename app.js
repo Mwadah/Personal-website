@@ -45,10 +45,10 @@ function relocate(goTo) {
 
 	setTimeout(function() {
 		for (var i= 0; i < pagesArray.length; i++) {
-			pagesArray[i].style.transform= "translateY(-2000px)";
+			pagesArray[i].classList.add('hide');
 		}
 
-		loadingOvrlay.style.transform= "translateY(0px)";
+		loadingOvrlay.classList.add('translate');
 	}, 800);
 
 	setTimeout(function() {
@@ -68,7 +68,7 @@ function relocate(goTo) {
 	}, 2200);
 
 	setTimeout(function() {
-		loadingOvrlay.style.transform= "translateY(2000px)";
-		goTo.style.transform= "translateY(0px)";
+		loadingOvrlay.classList.remove('translate');
+		goTo.classList.remove('hide');
 	}, 5200);
 }

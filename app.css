@@ -302,9 +302,6 @@ html, body {
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
 	position: absolute;
-	-webkit-transform: translateY(-2000px);
-	    -ms-transform: translateY(-2000px);
-	        transform: translateY(-2000px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -341,7 +338,7 @@ html, body {
 	}
 
 	#about p b {
-		color: rgb(101, 46, 46);
+		color: rgb(107, 21, 29);
 	}
 
 
@@ -354,9 +351,6 @@ html, body {
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
 	position: absolute;
-	-webkit-transform: translateY(-2000px);
-	    -ms-transform: translateY(-2000px);
-	        transform: translateY(-2000px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -425,9 +419,6 @@ html, body {
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
 	position: absolute;
-	-webkit-transform: translateY(-2000px);
-	    -ms-transform: translateY(-2000px);
-	        transform: translateY(-2000px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -538,9 +529,6 @@ html, body {
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
 	position: absolute;
-	-webkit-transform: translateY(-2000px);
-	    -ms-transform: translateY(-2000px);
-	        transform: translateY(-2000px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -723,7 +711,17 @@ html, body {
 
 
 
-/* 6-media query */
+/* 6-pages animation classes */
+.hide {
+	-webkit-transform: translateY(-2000px);
+	    -ms-transform: translateY(-2000px);
+	        transform: translateY(-2000px);
+}
+
+
+
+
+/* 7-media query */
 @media screen and (min-width: 450px) {
 
 	#fixed-logo {
@@ -810,10 +808,3 @@ html, body {
 	}
 
 }
-
-
-
-/*
-rgb(130, 54, 54)
-rgb(101, 46, 46)
-*/
