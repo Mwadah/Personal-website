@@ -236,6 +236,9 @@ html, body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-transform: translateY(0px);
+	    -ms-transform: translateY(0px);
+	        transform: translateY(0px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -302,6 +305,9 @@ html, body {
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
 	position: absolute;
+	-webkit-transform: translateY(0px);
+	    -ms-transform: translateY(0px);
+	        transform: translateY(0px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -351,6 +357,9 @@ html, body {
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
 	position: absolute;
+	-webkit-transform: translateY(0px);
+	    -ms-transform: translateY(0px);
+	        transform: translateY(0px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -419,6 +428,9 @@ html, body {
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
 	position: absolute;
+	-webkit-transform: translateY(0px);
+	    -ms-transform: translateY(0px);
+	        transform: translateY(0px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -529,6 +541,9 @@ html, body {
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
 	position: absolute;
+	-webkit-transform: translateY(0px);
+	    -ms-transform: translateY(0px);
+	        transform: translateY(0px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -713,9 +728,9 @@ html, body {
 
 /* 6-pages animation classes */
 .hide {
-	-webkit-transform: translateY(-2000px);
-	    -ms-transform: translateY(-2000px);
-	        transform: translateY(-2000px);
+	-webkit-transform: translateY(-2000px) !important;
+	    -ms-transform: translateY(-2000px) !important;
+	        transform: translateY(-2000px) !important;
 }
 
 
