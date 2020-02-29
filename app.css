@@ -115,7 +115,7 @@ html, body {
     .link i {
 	    font-family: FontAwesome;
 	    font-style: normal;
-	    color: rgba(119, 119, 93, 0.48);
+	    color: rgb(86, 86, 86);
 	    opacity: 1;
 	    -webkit-transition: 0.3s all;
 	    -o-transition: 0.3s all;
@@ -130,7 +130,7 @@ html, body {
     	text-decoration: none;
     	font-family: 'Open Sans Condensed', sans-serif;
     	font-weight: bold;
-    	color: rgba(107, 21, 29, 0.82);
+    	color: rgb(97, 59, 60);
     	font-size: 20px;
     	opacity: 0;
     	-webkit-transition: 0.3s all;
@@ -559,7 +559,7 @@ html, body {
 			-webkit-box-sizing: border-box;
 			        box-sizing: border-box;
 			margin: 25px 0px 0px;
-			background-color: rgba(0, 0, 0, 0.43);
+			background-color: rgba(0, 0, 0, 0.30);
 			border: none;
 			border-left: solid 2px rgba(86, 86, 86, 0.6);
 			border-radius: 8px;
@@ -621,7 +621,7 @@ html, body {
 			font-family: 'Open Sans', sans-serif;
 			font-size: 18px;
 			color: rgb(86, 86, 86);
-			background-color: rgba(97, 59, 60, 0.71);
+			background-color: rgba(97, 59, 60, 0.55);
 			border: 1px solid rgb(86, 86, 86);
 			border-radius: 8px;
 			outline: none;
@@ -630,7 +630,7 @@ html, body {
 
 		button:hover {
 			cursor: pointer;
-			background-color: rgba(107, 21, 29, 0.48);
+			background-color: rgba(0, 0, 0, 0.30);
 		}
 
 
