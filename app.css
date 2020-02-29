@@ -323,12 +323,6 @@ html, body {
 		letter-spacing: 1px;
 	}
 
-	#about h1 b {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 32px;
-		color: rgb(107, 21, 29);
-	}
-
 
 	/* b-about paragraf */
 	#about p {
@@ -373,12 +367,6 @@ html, body {
 		color: rgb(119, 119, 93);
 		font-size: 36px;
 		letter-spacing: 1px;
-	}
-
-	#skills h1 b {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 32px;
-		color: rgb(107, 21, 29);
 	}
 
 
@@ -444,12 +432,6 @@ html, body {
 		color: rgb(119, 119, 93);
 		font-size: 36px;
 		letter-spacing: 1px;
-	}
-
-	#portfolio h1 b {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 32px;
-		color: rgb(107, 21, 29);
 	}
 
 
@@ -558,12 +540,6 @@ html, body {
 		letter-spacing: 1px;
 	}
 
-	#contact h1 b {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 32px;
-		color: rgb(107, 21, 29);
-	}
-
 
 	/* c-form */
 	.form-wrapper {
@@ -641,12 +617,13 @@ html, body {
 		button {
 			margin: 20px;
 			display: block;
-			padding: 6px 15px;
+			padding: 2px 12px;
 			font-family: 'Open Sans', sans-serif;
 			font-size: 18px;
 			color: rgb(119, 119, 93);
 			background-color: rgb(107, 21, 29);
 			border: 1px solid rgb(119, 119, 93);
+			border-radius: 8px;
 			outline: none;
 			transition: 0.3s all;
 		}
