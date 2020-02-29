@@ -34,7 +34,7 @@ html, body {
 	/* a-btn lines */
 	#first, #second, #third {
 		height: 2px;
-		background-color: rgb(95, 95, 91);
+		background-color: rgb(86, 86, 86);
 		margin: auto 0;
 		-webkit-transition: 0.6s all;
 		-o-transition: 0.6s all;
@@ -247,7 +247,7 @@ html, body {
 		width: 100%;
 		margin: auto 0px;
 		padding: 0px 0px 40px;
-		color: rgb(95, 95, 91);
+		color: rgb(86, 86, 86);
 		text-align: center;
 	}
 
@@ -282,7 +282,7 @@ html, body {
 		width: 70px;
 		height: 1px;
 		margin: auto 8px auto 0px;
-		background-color: rgb(118, 119, 93);
+		background-color: rgb(86, 86, 86);
 	}
 
 	.vertical-text span {
@@ -318,7 +318,7 @@ html, body {
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
-		color: rgb(95, 95, 91);
+		color: rgb(86, 86, 86);
 		font-size: 36px;
 		letter-spacing: 1px;
 	}
@@ -331,11 +331,11 @@ html, body {
 		margin: 28px auto;
 		font-size: 20px;
 		font-family: 'Open Sans', sans-serif;
-		color: rgb(95, 95, 91);
+		color: rgb(86, 86, 86);
 	}
 
 	#about p b {
-		color: #613b3c;
+		color: rgb(97, 59, 60);
 	}
 
 
@@ -364,7 +364,7 @@ html, body {
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
-		color: rgb(119, 119, 93);
+		color: rgb(86, 86, 86);
 		font-size: 36px;
 		letter-spacing: 1px;
 	}
@@ -377,7 +377,7 @@ html, body {
 		margin: 28px auto;
 		font-size: 20px;
 		font-family: 'Open Sans', sans-serif;
-		color: rgb(119, 119, 93);
+		color: rgb(86, 86, 86);
 	}
 
 
@@ -395,7 +395,7 @@ html, body {
 
 	.skills-wrapper span {
 		font-family: 'Open Sans', sans-serif;
-		color: rgba(119, 119, 93, 0.73);
+		color: rgb(86, 86, 86);
 		font-size: 16px;
 		font-weight: bold;
 		background-color: rgba(97, 59, 60, 0.71);
@@ -429,7 +429,7 @@ html, body {
 		padding: 0px 0px 30px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
-		color: rgb(119, 119, 93);
+		color: rgb(86, 86, 86);
 		font-size: 36px;
 		letter-spacing: 1px;
 	}
@@ -464,7 +464,7 @@ html, body {
 		.work-num div {
 			width: 80%;
 			height: 2px;
-			background-color: rgba(119, 119, 93, 0.7803921568627451);
+			background-color: rgb(86, 86, 86);
 			margin: auto 10px;
 		}
 
@@ -483,13 +483,13 @@ html, body {
 			font-size: 22px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 200;
-			color: rgb(119, 119, 93);
+			color: rgb(86, 86, 86);
 			margin: 5px 0px;
 		}
 
 		.work-name span {
 			font-family: 'Open Sans', sans-serif;
-			color: rgb(119, 119, 93);
+			color: rgb(86, 86, 86);
 			font-size: 12px;
 			font-weight: 200;
 			letter-spacing: 1px;
@@ -503,7 +503,7 @@ html, body {
 		.view-work a {
 			text-decoration: none;
 			font-family: 'Open Sans', sans-serif;
-			color: rgba(119, 119, 93, 0.52);
+			color: rgb(86, 86, 86);
 			font-size: 16px;
 		}
 
@@ -535,7 +535,7 @@ html, body {
 		padding: 0px 0px 20px 0px;
 		margin: 0px auto;
 		font-family: 'Open Sans Condensed', sans-serif;
-		color: rgb(119, 119, 93);
+		color: rgb(86, 86, 86);
 		font-size: 36px;
 		letter-spacing: 1px;
 	}
@@ -561,11 +561,11 @@ html, body {
 			margin: 25px 0px 0px;
 			background-color: rgba(0, 0, 0, 0.43);
 			border: none;
-			border-left: solid 2px rgba(119, 119, 93, 0.56);
+			border-left: solid 2px rgba(86, 86, 86, 0.6);
 			border-radius: 8px;
 			outline: none;
 			font-family: 'Open Sans', sans-serif;
-			color: #76775d;
+			color: rgb(86, 86, 86);
 			font-size: 16px;
 		}
 
@@ -575,35 +575,35 @@ html, body {
 		}
 
 		input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-			color: rgba(119, 119, 93, 0.48);
+			color: rgba(86, 86, 86, 0.5);
 			font-size: 16px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
 		}
 
 		input::-moz-placeholder, textarea::-moz-placeholder {
-			color: rgba(119, 119, 93, 0.48);
+			color: rgba(86, 86, 86, 0.5);
 			font-size: 16px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
 		}
 
 		input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-			color: rgba(119, 119, 93, 0.48);
+			color: rgba(86, 86, 86, 0.5);
 			font-size: 16px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
 		}
 
 		input::-ms-input-placeholder, textarea::-ms-input-placeholder {
-			color: rgba(119, 119, 93, 0.48);
+			color: rgba(86, 86, 86, 0.5);
 			font-size: 16px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
 		}
 
 		input::placeholder, textarea::placeholder {
-			color: rgba(119, 119, 93, 0.48);
+			color: rgba(86, 86, 86, 0.5);
 			font-size: 16px;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: lighter;
@@ -620,9 +620,9 @@ html, body {
 			padding: 2px 12px;
 			font-family: 'Open Sans', sans-serif;
 			font-size: 18px;
-			color: rgb(119, 119, 93);
+			color: rgb(86, 86, 86);
 			background-color: rgba(97, 59, 60, 0.71);
-			border: 1px solid rgb(119, 119, 93);
+			border: 1px solid rgb(86, 86, 86);
 			border-radius: 8px;
 			outline: none;
 			transition: 0.3s all;
@@ -672,7 +672,7 @@ html, body {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 15px;
 		margin: 0px;
-		color: rgb(118, 119, 93);
+		color: rgb(86, 86, 86);
 	}
 
 
