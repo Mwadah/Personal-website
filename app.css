@@ -115,7 +115,7 @@ html, body {
     .link i {
 	    font-family: FontAwesome;
 	    font-style: normal;
-	    color: rgb(107, 22, 29);
+	    color: rgba(119, 119, 93, 0.48);
 	    opacity: 1;
 	    -webkit-transition: 0.3s all;
 	    -o-transition: 0.3s all;
@@ -130,8 +130,8 @@ html, body {
     	text-decoration: none;
     	font-family: 'Open Sans Condensed', sans-serif;
     	font-weight: bold;
-    	color: rgb(118, 119, 93);
-    	font-size: 18px;
+    	color: rgba(107, 21, 29, 0.82);
+    	font-size: 20px;
     	opacity: 0;
     	-webkit-transition: 0.3s all;
     	-o-transition: 0.3s all;
@@ -521,9 +521,8 @@ html, body {
 		.view-work a {
 			text-decoration: none;
 			font-family: 'Open Sans', sans-serif;
-			color: rgba(107, 21, 29, 0.72);
+			color: rgba(119, 119, 93, 0.52);
 			font-size: 16px;
-			font-weight: bold;
 		}
 
 
@@ -586,7 +585,7 @@ html, body {
 			margin: 25px 0px 0px;
 			background-color: rgba(0, 0, 0, 0.43);
 			border: none;
-			border-left: solid 2px rgba(107, 21, 29, 0.85);
+			border-left: solid 2px rgba(119, 119, 93, 0.56);
 			border-radius: 8px;
 			outline: none;
 			font-family: 'Open Sans', sans-serif;
