@@ -193,7 +193,7 @@ html, body {
 		height: 100%;
 		position: absolute;
 		top: 0;
-		background-color: rgba(118, 119, 93, 0.12);
+		background-color: rgba(86, 86, 86, 0.16);
 	}
 
 	.overlay-first-line::before {
