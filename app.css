@@ -335,7 +335,7 @@ html, body {
 	}
 
 	#about p b {
-		color: rgb(107, 21, 29);
+		color: #613b3c;
 	}
 
 
@@ -621,7 +621,7 @@ html, body {
 			font-family: 'Open Sans', sans-serif;
 			font-size: 18px;
 			color: rgb(119, 119, 93);
-			background-color: rgb(107, 21, 29);
+			background-color: #613b3c;
 			border: 1px solid rgb(119, 119, 93);
 			border-radius: 8px;
 			outline: none;
