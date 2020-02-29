@@ -35,10 +35,21 @@ var pagesArray= [home, about, skills, portfolio, contact];
 
 
 /* b-functions */
+var z= 0;
+
+function preRelocate(goTo) {
+	z++;
+
+	if (!(z> 1)) {
+		relocate(goTo);
+	}
+}
+
+
 function relocate(goTo) {
 	menu.classList.toggle('translate');
 	firstLine.classList.toggle('original-position');
-	secondLine.classList.toggle('original-position');	
+	secondLine.classList.toggle('original-position');
 	thirdLine.classList.toggle('original-position');
 
 	loadingLine.setAttribute('x2', 0);
@@ -51,6 +62,8 @@ function relocate(goTo) {
 		loadingOvrlay.style.transform= "translateY(0px)";
 	}, 800);
 
+	var lineFilled= false;
+
 	setTimeout(function() {
 		var x= 0;
 		var pageLoadingAnimation= setInterval(function() {
@@ -61,14 +74,23 @@ function relocate(goTo) {
 			}
 
 			else {
+				lineFilled= true;
 				clearInterval(pageLoadingAnimation);
 			}
 
-		}, 10);
+		}, 8);
 	}, 2200);
 
-	setTimeout(function() {
-		loadingOvrlay.style.transform= "translateY(2000px)";
-		goTo.style.transform= "translateY(0px)";
-	}, 5200);
+	var travelToPage= setInterval(function() {
+		if (lineFilled) {
+			clearInterval(travelToPage);
+			setTimeout(function() {
+				loadingOvrlay.style.transform= "translateY(2000px)";
+				goTo.style.transform= "translateY(0px)";
+
+				return z= 0;
+			}, 200)
+		}
+
+	}, 1);
 }
