@@ -236,6 +236,9 @@ html, body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	-webkit-transform: translateY(-2000px);
+	    -ms-transform: translateY(-2000px);
+	        transform: translateY(-2000px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;

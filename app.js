@@ -47,19 +47,19 @@ function preRelocate(goTo) {
 
 
 function relocate(goTo) {
-	menu.classList.toggle('translate');
-	firstLine.classList.toggle('original-position');
-	secondLine.classList.toggle('original-position');
-	thirdLine.classList.toggle('original-position');
+	menu.classList.remove('translate');
+	firstLine.classList.add('original-position');
+	secondLine.classList.add('original-position');
+	thirdLine.classList.add('original-position');
 
 	loadingLine.setAttribute('x2', 0);
 
 	setTimeout(function() {
 		for (var i= 0; i < pagesArray.length; i++) {
-			pagesArray[i].style.transform= "translateY(-2000px)";
+			pagesArray[i].classList.remove('translate');
 		}
 
-		loadingOvrlay.style.transform= "translateY(0px)";
+		loadingOvrlay.classList.add('translate');
 	}, 800);
 
 	var lineFilled= false;
@@ -85,8 +85,8 @@ function relocate(goTo) {
 		if (lineFilled) {
 			clearInterval(travelToPage);
 			setTimeout(function() {
-				loadingOvrlay.style.transform= "translateY(2000px)";
-				goTo.style.transform= "translateY(0px)";
+				loadingOvrlay.classList.remove('translate');
+				goTo.classList.add('translate');
 
 				return z= 0;
 			}, 200)
