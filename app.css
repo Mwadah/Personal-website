@@ -1,4 +1,123 @@
 /* 1-html, body css*/
+
+
+
+
+/* 2-background */
+
+
+	/* a-lined overlay */
+
+
+
+
+/* 3-toggle menu */
+
+
+	/* a-btn lines */
+
+
+
+
+/* 4-menu */
+
+
+    /* a-links */
+
+
+
+
+/* 5-logo */
+
+
+
+
+/* 6-content container */
+
+
+
+
+/* 7-home */
+
+
+	/* a-home title */
+
+
+	/* b-vertical text */
+
+
+
+
+/* 8-about */
+
+
+	/* a-about title */
+
+
+	/* b-about paragraf */
+
+
+
+
+/* 9-skills */
+
+
+	/* a-skills title */
+
+
+	/* b-skills paragraf */
+
+
+	/* c-skills wrapper */
+
+
+
+
+/* 10-portfolio */
+
+
+	/* a-portfolio title */
+
+
+	/* b-works wrapper */
+
+		/* single work content */
+
+
+
+
+/* 11-contact */
+
+
+	/* a-contact title */
+
+
+	/* b-form */
+
+		/* actual form */
+
+
+
+
+/* 12-loading overlay */
+
+
+	/* a-loading overlay content */
+
+
+	/* b-loading line */
+
+
+
+
+/* 13-media query */
+
+
+
+
+
+
+/* 1-html, body css*/
 html, body {
 	min-height: 100vh;
 	width: 100%;
@@ -10,7 +129,7 @@ html, body {
 
 
 
-/* 5-background */
+/* 2-background */
 .background {
 	height: 100vh;
 	width: 100%;
@@ -56,7 +175,7 @@ html, body {
 
 
 
-/* 2-toggle menu */
+/* 3-toggle menu */
 #toggle-menu {
 	width: 40px;
 	height: 35px;
@@ -118,7 +237,7 @@ html, body {
 
 
 
-/* 3-menu */
+/* 4-menu */
 #menu {
 	height: 70%;
 	min-height: 350px;
@@ -202,7 +321,7 @@ html, body {
 
 
 
-/* 4-logo */
+/* 5-logo */
 #fixed-logo {
 	width: 58px;
 	position: fixed;
@@ -228,7 +347,8 @@ html, body {
 
 
 
-/* 6-home */
+
+/* 7-home */
 #home {
 	width: 100%;
 	min-height: 100%;
@@ -266,6 +386,7 @@ html, body {
 		font-size: 16px;
 	}
 
+
 	/* b-vertical text */
 	.vertical-text {
 		position: fixed;
@@ -298,7 +419,7 @@ html, body {
 
 
 
-/* 6-about */
+/* 8-about */
 #about {
 	width: 100%;
 	-webkit-box-sizing: border-box;
@@ -344,7 +465,7 @@ html, body {
 
 
 
-/* 6-skills */
+/* 9-skills */
 #skills {
 	width: 100%;
 	-webkit-box-sizing: border-box;
@@ -409,7 +530,7 @@ html, body {
 
 
 
-/* 6-portfolio */
+/* 10-portfolio */
 #portfolio {
 	width: 100%;
 	-webkit-box-sizing: border-box;
@@ -446,7 +567,9 @@ html, body {
 		display: flex;
 		-ms-flex-wrap: wrap;
 		    flex-wrap: wrap;
-		justify-content: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 
 	.single-work {
@@ -513,9 +636,7 @@ html, body {
 
 
 
-
-
-/* 6-contact */
+/* 11-contact */
 #contact {
 	width: 100%;
 	-webkit-box-sizing: border-box;
@@ -544,7 +665,7 @@ html, body {
 	}
 
 
-	/* c-form */
+	/* b-form */
 	.form-wrapper {
 		width: 100%;
 		max-width: 300px;
@@ -628,6 +749,8 @@ html, body {
 			border: 1px solid rgb(86, 86, 86);
 			border-radius: 8px;
 			outline: none;
+			-webkit-transition: 0.3s all;
+			-o-transition: 0.3s all;
 			transition: 0.3s all;
 		}
 
@@ -639,7 +762,7 @@ html, body {
 
 
 
-/* 5-loading overlay */
+/* 12-loading overlay */
 #loading-overlay {
 	position: fixed;
 	top: 0px;
@@ -702,7 +825,7 @@ html, body {
 
 
 
-/* 6-media query */
+/* 13-media query */
 @media screen and (min-width: 450px) {
 
 	#fixed-logo {
@@ -769,11 +892,15 @@ html, body {
 	}
 
 	#first {
-		transform: translateY(13px) rotate(45deg);
+		-webkit-transform: translateY(13px) rotate(45deg);
+		    -ms-transform: translateY(13px) rotate(45deg);
+		        transform: translateY(13px) rotate(45deg);
 	}
 
 	#third {
-		transform: translateY(-13px) rotate(-45deg);
+		-webkit-transform: translateY(-13px) rotate(-45deg);
+		    -ms-transform: translateY(-13px) rotate(-45deg);
+		        transform: translateY(-13px) rotate(-45deg);
 	}
 
 	.home-title h1 {

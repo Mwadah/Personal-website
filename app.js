@@ -2,6 +2,30 @@
 
 
 /* a- variables */
+
+
+/* b-functions */
+
+
+
+
+/* 2-relocate page */
+
+
+/* a-variables */
+
+
+/* b-functions */
+
+
+
+
+
+
+/* 1-toggle menu */
+
+
+/* a- variables */
 var toggleMenu= document.getElementById('toggle-menu');
 var menu= document.getElementById('menu');
 var firstLine= document.getElementById('first');
