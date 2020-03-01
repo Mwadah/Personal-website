@@ -56,15 +56,20 @@ function relocate(goTo) {
 
 	setTimeout(function() {
 		for (var i= 0; i < pagesArray.length; i++) {
-			pagesArray[i].classList.remove('translate');
+			pagesArray[i].classList.add('animate-page');
 		}
 
 		loadingOvrlay.classList.add('translate');
+
 	}, 800);
 
 	var lineFilled= false;
 
 	setTimeout(function() {
+		for (var i= 0; i < pagesArray.length; i++) {
+			pagesArray[i].classList.add('hide-page');
+		}
+
 		var x= 0;
 		var pageLoadingAnimation= setInterval(function() {
 			x++;
@@ -84,14 +89,11 @@ function relocate(goTo) {
 	var travelToPage= setInterval(function() {
 		if (lineFilled) {
 			clearInterval(travelToPage);
-			setTimeout(function() {
-				goTo.style.position= "fixed";
-				loadingOvrlay.classList.remove('translate');
-				goTo.classList.add('translate');
 
-				setTimeout(function() {
-					goTo.style.position= 'absolute';
-				}, 2200);
+			goTo.classList.remove('hide-page');
+			setTimeout(function() {
+				loadingOvrlay.classList.remove('translate');
+				goTo.classList.remove('animate-page');
 
 				return z= 0;
 			}, 200)
