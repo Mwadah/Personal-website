@@ -88,7 +88,10 @@ function relocate(goTo) {
 				goTo.style.position= "fixed";
 				loadingOvrlay.classList.remove('translate');
 				goTo.classList.add('translate');
-				goTo.style.position= 'absolute';
+
+				setTimeout(function() {
+					goTo.style.position= 'absolute';
+				}, 2200);
 
 				return z= 0;
 			}, 200)
