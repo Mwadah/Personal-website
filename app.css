@@ -27,8 +27,8 @@ html, body {
 	.overlay-third-line::before {
 		content: "";
 		width: 2px;
-		height: 100%;
-		position: absolute;
+		height: 100vh;
+		position: fixed;
 		top: 0;
 		background-color: rgba(86, 86, 86, 0.16);
 	}
