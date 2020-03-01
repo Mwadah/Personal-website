@@ -641,7 +641,7 @@ html, body {
 
 /* 5-loading overlay */
 #loading-overlay {
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 	height: 100%;
@@ -698,6 +698,20 @@ html, body {
 		stroke: rgb(97, 59, 60);
 		stroke-width: 4px;
 	}
+
+
+
+
+/* 3-pages animating */
+.animatePages {
+	-webkit-transform: translateY(0px) !important;
+	    -ms-transform: translateY(0px) !important;
+	        transform: translateY(0px) !important;
+	-webkit-transition: 2s all;
+	-o-transition: 2s all;
+	transition: 2s all;
+}
+
 
 
 
