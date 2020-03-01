@@ -641,7 +641,7 @@ html, body {
 
 /* 5-loading overlay */
 #loading-overlay {
-	position: fixed;
+	position: absolute;
 	top: 0px;
 	left: 0px;
 	height: 100%;
