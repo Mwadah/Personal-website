@@ -5,7 +5,56 @@ html, body {
 	max-width: 100%;
 	margin: 0;
 	position: relative;
+	background-color: rgb(3, 18, 45);
 }
+
+
+
+
+/* 5-background */
+.content-background {
+	height: 100vh;
+	width: 100%;
+	background-color: rgb(3, 18, 45);
+	position: fixed;
+	overflow: auto;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+}
+
+
+	/* a-lined overlay */
+	.overlay-first-line::before, .overlay-first-line::after, 
+	.overlay-second-line::before, .overlay-second-line::after,
+	.overlay-third-line::before {
+		content: "";
+		width: 2px;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		background-color: rgba(86, 86, 86, 0.16);
+	}
+
+	.overlay-first-line::before {
+		left: 10%;
+	}
+
+	.overlay-first-line::after {
+		left: 30%;
+	}
+
+	.overlay-second-line::before {
+		left: 50%;
+	}
+
+	.overlay-second-line::after {
+		right: 30%;
+	}
+
+	.overlay-third-line::before {
+		right: 10%;
+	}
 
 
 
@@ -169,52 +218,6 @@ html, body {
 #fixed-logo img {
 	width: 100%;
 }
-
-
-
-
-/* 5-background */
-.background {
-	height: 100vh;
-	width: 100%;
-	background-color: rgb(3, 18, 45);
-	position: fixed;
-	top: 0px;
-	left: 0px;
-}
-
-
-	/* a-lined overlay */
-	.overlay-first-line::before, .overlay-first-line::after, 
-	.overlay-second-line::before, .overlay-second-line::after,
-	.overlay-third-line::before {
-		content: "";
-		width: 2px;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		background-color: rgba(86, 86, 86, 0.16);
-	}
-
-	.overlay-first-line::before {
-		left: 10%;
-	}
-
-	.overlay-first-line::after {
-		left: 30%;
-	}
-
-	.overlay-second-line::before {
-		left: 50%;
-	}
-
-	.overlay-second-line::after {
-		right: 30%;
-	}
-
-	.overlay-third-line::before {
-		right: 10%;
-	}
 
 
 
