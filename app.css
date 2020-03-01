@@ -175,7 +175,7 @@ html, body {
 
 /* 5-background */
 .background {
-	height: 200vh;
+	height: 100vh;
 	width: 100%;
 	background-color: rgb(3, 18, 45);
 	position: fixed;
@@ -231,7 +231,7 @@ html, body {
 /* 6-home */
 #home {
 	width: 100%;
-	min-height: 100vh;
+	min-height: 100%;
 	position: absolute;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -269,7 +269,7 @@ html, body {
 	/* b-vertical text */
 	.vertical-text {
 		position: fixed;
-		bottom: 88px;
+		bottom: 86px;
 		left: -40px;
 		display: -webkit-box;
 		display: -ms-flexbox;
