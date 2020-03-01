@@ -702,20 +702,6 @@ html, body {
 
 
 
-/* 3-pages animating */
-.animatePages {
-	-webkit-transform: translateY(0px) !important;
-	    -ms-transform: translateY(0px) !important;
-	        transform: translateY(0px) !important;
-	-webkit-transition: 2s all;
-	-o-transition: 2s all;
-	transition: 2s all;
-}
-
-
-
-
-
 /* 6-media query */
 @media screen and (min-width: 450px) {
 
