@@ -175,10 +175,10 @@ html, body {
 
 /* 5-background */
 .background {
-	min-height: 100vh;
+	height: 100vh;
 	width: 100%;
 	background-color: rgb(3, 18, 45);
-	position: relative;
+	position: fixed;
 	top: 0px;
 	left: 0px;
 }
@@ -218,16 +218,27 @@ html, body {
 
 
 
+
+/* 6-content container */
+.content {
+	width: 100%;
+	min-height: 100vh;
+	position: relative;
+}
+
+
+
 /* 6-home */
 #home {
 	width: 100%;
-	min-height: 100vh;
+	min-height: 100%;
+	position: absolute;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-transform: translateY(0px);
-	    -ms-transform: translateY(0px);
-	        transform: translateY(0px);
+	-webkit-transform: translateY(-2000px);
+	    -ms-transform: translateY(-2000px);
+	        transform: translateY(-2000px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -258,7 +269,7 @@ html, body {
 	/* b-vertical text */
 	.vertical-text {
 		position: fixed;
-		bottom: 88px;
+		bottom: 86px;
 		left: -40px;
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -293,9 +304,10 @@ html, body {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
-	-webkit-transform: translateY(0px);
-	    -ms-transform: translateY(0px);
-	        transform: translateY(0px);
+	position: absolute;
+	-webkit-transform: translateY(-2000px);
+	    -ms-transform: translateY(-2000px);
+	        transform: translateY(-2000px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -338,9 +350,10 @@ html, body {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
-	-webkit-transform: translateY(0px);
-	    -ms-transform: translateY(0px);
-	        transform: translateY(0px);
+	position: absolute;
+	-webkit-transform: translateY(-2000px);
+	    -ms-transform: translateY(-2000px);
+	        transform: translateY(-2000px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -402,9 +415,10 @@ html, body {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
-	-webkit-transform: translateY(0px);
-	    -ms-transform: translateY(0px);
-	        transform: translateY(0px);
+	position: absolute;
+	-webkit-transform: translateY(-2000px);
+	    -ms-transform: translateY(-2000px);
+	        transform: translateY(-2000px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -507,9 +521,10 @@ html, body {
 	-webkit-box-sizing: border-box;
 	        box-sizing: border-box;
 	padding: 100px 65px 70px 10%;
-	-webkit-transform: translateY(0px);
-	    -ms-transform: translateY(0px);
-	        transform: translateY(0px);
+	position: absolute;
+	-webkit-transform: translateY(-2000px);
+	    -ms-transform: translateY(-2000px);
+	        transform: translateY(-2000px);
 	-webkit-transition: 2s all;
 	-o-transition: 2s all;
 	transition: 2s all;
@@ -683,20 +698,6 @@ html, body {
 		stroke: rgb(97, 59, 60);
 		stroke-width: 4px;
 	}
-
-
-
-
-/* 6-animate pages */
-.animate-page {
-	-webkit-transform: translateY(-2000px) !important;
-	    -ms-transform: translateY(-2000px) !important;
-	        transform: translateY(-2000px) !important;
-}
-
-.hide-page {
-	display: none !important;
-}
 
 
 
