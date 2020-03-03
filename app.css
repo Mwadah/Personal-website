@@ -462,6 +462,11 @@ html, body {
 		color: rgb(97, 59, 60);
 	}
 
+	button a {
+		text-decoration: none;
+		color: inherit;
+	}
+
 
 
 
