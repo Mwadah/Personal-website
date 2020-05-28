@@ -550,7 +550,7 @@ html, body {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
-		background-color: rgba(97, 59, 60, 0.30);
+		box-shadow: 0 0 2px rgba(97, 59, 60);
 	}
 
 		/* social media icons */
