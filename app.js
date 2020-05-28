@@ -52,10 +52,8 @@ var loadingOvrlay= document.getElementById('loading-overlay');
 var loadingLine= document.getElementById('loading-line');
 var home= document.getElementById("home");
 var about= document.getElementById("about");
-var skills= document.getElementById("skills");
-var portfolio= document.getElementById("portfolio");
 var contact= document.getElementById("contact");
-var pagesArray= [home, about, skills, portfolio, contact];
+var pagesArray= [home, about, contact];
 
 
 /* b-functions */

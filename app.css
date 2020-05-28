@@ -311,10 +311,6 @@ html, body {
     .home-link:hover .home-text {opacity: 1;}
     .about-link:hover .about-icon {opacity: 0;}
     .about-link:hover .about-text {opacity: 1;}
-    .skills-link:hover .skills-icon {opacity: 0;}
-    .skills-link:hover .skills-text {opacity: 1;}
-    .portfolio-link:hover .portfolio-icon {opacity: 0;}
-    .portfolio-link:hover .portfolio-text {opacity: 1;}
     .contact-link:hover .contact-icon {opacity: 0;}
     .contact-link:hover .contact-text {opacity: 1;}
 
@@ -390,8 +386,8 @@ html, body {
 	/* b-vertical text */
 	.vertical-text {
 		position: fixed;
-		bottom: 86px;
-		left: -40px;
+		bottom: 108px;
+		left: -60px;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -462,186 +458,10 @@ html, body {
 		color: rgb(97, 59, 60);
 	}
 
-	button a {
-		text-decoration: none;
-		color: inherit;
-	}
 
 
 
-
-/* 9-skills */
-#skills {
-	width: 100%;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	padding: 100px 65px 70px 10%;
-	position: absolute;
-	-webkit-transform: translateY(-2000px);
-	    -ms-transform: translateY(-2000px);
-	        transform: translateY(-2000px);
-	-webkit-transition: 2s all;
-	-o-transition: 2s all;
-	transition: 2s all;
-}
-
-
-	/* a-skills title */
-	#skills h1 {
-		width: 100%;
-		max-width: 1000px;
-		padding: 0px 0px 20px 0px;
-		margin: 0px auto;
-		font-family: 'Open Sans Condensed', sans-serif;
-		color: rgb(86, 86, 86);
-		font-size: 36px;
-		letter-spacing: 1px;
-	}
-
-
-	/* b-skills paragraf */
-	#skills p {
-		width: 100%;
-		max-width: 1000px;
-		margin: 28px auto;
-		font-size: 20px;
-		font-family: 'Open Sans', sans-serif;
-		color: rgb(86, 86, 86);
-	}
-
-
-	/* c-skills wrapper */
-	.skills-wrapper {
-		width: 100%;
-		max-width: 1000px;
-		margin: 10px auto;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
-	}
-
-	.skills-wrapper span {
-		font-family: 'Open Sans', sans-serif;
-		color: rgb(86, 86, 86);
-		font-size: 16px;
-		font-weight: bold;
-		background-color: rgba(97, 59, 60, 0.71);
-		padding: 5px 12px;
-		margin: 5px 4px;
-	}
-
-
-
-
-/* 10-portfolio */
-#portfolio {
-	width: 100%;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	padding: 100px 65px 70px 10%;
-	position: absolute;
-	-webkit-transform: translateY(-2000px);
-	    -ms-transform: translateY(-2000px);
-	        transform: translateY(-2000px);
-	-webkit-transition: 2s all;
-	-o-transition: 2s all;
-	transition: 2s all;
-}
-
-
-	/* a-portfolio title */
-	#portfolio h1 {
-		width: 100%;
-		max-width: 600px;
-		padding: 0px 0px 30px 0px;
-		margin: 0px auto;
-		font-family: 'Open Sans Condensed', sans-serif;
-		color: rgb(86, 86, 86);
-		font-size: 36px;
-		letter-spacing: 1px;
-	}
-
-
-	/* b-works wrapper */
-	.works-wrapper {
-		width: 100%;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
-		-webkit-box-pack: center;
-		    -ms-flex-pack: center;
-		        justify-content: center;
-	}
-
-	.single-work {
-		width: 100%;
-		max-width: 300px;
-		margin : 12px 0px;
-	}
-
-		/* single work content */
-		.work-num {
-			display: -webkit-box;
-			display: -ms-flexbox;
-			display: flex;
-			-ms-flex-wrap: wrap;
-			    flex-wrap: wrap;
-		}
-
-		.work-num div {
-			width: 80%;
-			height: 2px;
-			background-color: rgb(86, 86, 86);
-			margin: auto 10px;
-		}
-
-		.work-num span {
-			color: rgb(97, 59, 60);
-			font-family: "Open Sans", sans-serif;
-			font-size: 20px;
-			font-weight: bold;
-		}
-
-		.work-name {
-			padding: 0px 10px;
-		}
-
-		.work-name h2 {
-			font-size: 22px;
-			font-family: 'Open Sans', sans-serif;
-			font-weight: 200;
-			color: rgb(86, 86, 86);
-			margin: 5px 0px;
-		}
-
-		.work-name span {
-			font-family: 'Open Sans', sans-serif;
-			color: rgb(86, 86, 86);
-			font-size: 12px;
-			font-weight: 200;
-			letter-spacing: 1px;
-			margin: 4px;
-		}
-
-		.view-work {
-			margin: 10px 20px;
-		}
-
-		.view-work a {
-			text-decoration: none;
-			font-family: 'Open Sans', sans-serif;
-			color: rgb(86, 86, 86);
-			font-size: 16px;
-		}
-
-
-
-
-/* 11-contact */
+/* 10-contact */
 #contact {
 	width: 100%;
 	-webkit-box-sizing: border-box;
@@ -767,7 +587,7 @@ html, body {
 
 
 
-/* 12-loading overlay */
+/* 11-loading overlay */
 #loading-overlay {
 	position: fixed;
 	top: 0px;
@@ -790,7 +610,6 @@ html, body {
 	.loading-overlay-content {
 		margin: auto;
 		text-align: center;
-		padding: 0px 0px 40px 0px;
 	}
 
 	.loading-overlay-content img {
@@ -830,7 +649,7 @@ html, body {
 
 
 
-/* 13-media query */
+/* 12-media query */
 @media screen and (min-width: 450px) {
 
 	#fixed-logo {
@@ -853,11 +672,11 @@ html, body {
 		font-size: 18px;
 	}
 
-	#about h1, #skills h1, #contact h1, #portfolio h1 {
+	#about h1, #contact h1 {
 		font-size: 42px;
 	}
 
-	#about p, #skills p {
+	#about p {
 		font-size: 22px;
 	}
 
@@ -912,11 +731,11 @@ html, body {
 		font-size: 42px;
 	}
 
-	#about h1, #skills h1, #contact h1 {
+	#about h1, #contact h1 {
 		font-size: 48px;
 	}
 
-	#about p, #skills p {
+	#about p {
 		font-size: 24px;
 	}
 
