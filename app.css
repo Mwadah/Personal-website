@@ -27,17 +27,12 @@
 
 
 
-/* 5-logo */
+/* 5-content container */
 
 
 
 
-/* 6-content container */
-
-
-
-
-/* 7-home */
+/* 6-home */
 
 
 	/* a-home title */
@@ -48,7 +43,7 @@
 
 
 
-/* 8-about */
+/* 7-about */
 
 
 	/* a-about title */
@@ -59,34 +54,7 @@
 
 
 
-/* 9-skills */
-
-
-	/* a-skills title */
-
-
-	/* b-skills paragraf */
-
-
-	/* c-skills wrapper */
-
-
-
-
-/* 10-portfolio */
-
-
-	/* a-portfolio title */
-
-
-	/* b-works wrapper */
-
-		/* single work content */
-
-
-
-
-/* 11-contact */
+/* 8-contact */
 
 
 	/* a-contact title */
@@ -99,7 +67,7 @@
 
 
 
-/* 12-loading overlay */
+/* 9-loading overlay */
 
 
 	/* a-loading overlay content */
@@ -110,7 +78,7 @@
 
 
 
-/* 13-media query */
+/* 10-media query */
 
 
 
@@ -279,6 +247,7 @@ html, body {
 
     .link i {
 	    font-family: FontAwesome;
+	    font-size: 18px;
 	    font-style: normal;
 	    color: rgb(86, 86, 86);
 	    opacity: 1;
@@ -291,7 +260,6 @@ html, body {
     .link a {
     	position: absolute;
     	top: 0px;
-    	left: 0px;
     	text-decoration: none;
     	font-family: 'Open Sans Condensed', sans-serif;
     	font-weight: bold;
@@ -311,30 +279,16 @@ html, body {
     .home-link:hover .home-text {opacity: 1;}
     .about-link:hover .about-icon {opacity: 0;}
     .about-link:hover .about-text {opacity: 1;}
+    .blog-link:hover .blog-icon {opacity: 0;}
+    .blog-link:hover .blog-text {opacity: 1;}
     .contact-link:hover .contact-icon {opacity: 0;}
     .contact-link:hover .contact-text {opacity: 1;}
 
 
 
 
-/* 5-logo */
-#fixed-logo {
-	width: 58px;
-	position: fixed;
-	top: 4vh;
-	left: 6%;
-	background-color: rgb(3, 18, 45);
-	z-index: 1;
-}
 
-#fixed-logo img {
-	width: 100%;
-}
-
-
-
-
-/* 6-content container */
+/* 5-content container */
 .content {
 	width: 100%;
 	min-height: 100vh;
@@ -344,7 +298,7 @@ html, body {
 
 
 
-/* 7-home */
+/* 6-home */
 #home {
 	width: 100%;
 	min-height: 100%;
@@ -405,7 +359,8 @@ html, body {
 		background-color: rgb(86, 86, 86);
 	}
 
-	.vertical-text span {
+	.vertical-text a {
+		text-decoration: none;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: bold;
 		font-size: 16px;
@@ -415,7 +370,7 @@ html, body {
 
 
 
-/* 8-about */
+/* 7-about */
 #about {
 	width: 100%;
 	-webkit-box-sizing: border-box;
@@ -461,7 +416,7 @@ html, body {
 
 
 
-/* 10-contact */
+/* 8-contact */
 #contact {
 	width: 100%;
 	-webkit-box-sizing: border-box;
@@ -477,7 +432,7 @@ html, body {
 }
 
 
-	/* a-contact title */
+	/* a-contact titles */
 	#contact h1 {
 		width: 100%;
 		max-width: 300px;
@@ -507,7 +462,7 @@ html, body {
 			width: 100%;
 			-webkit-box-sizing: border-box;
 			        box-sizing: border-box;
-			margin: 25px 0px 0px;
+			margin: 0px 0px 25px;
 			background-color: rgba(0, 0, 0, 0.30);
 			border: none;
 			border-left: solid 2px rgba(86, 86, 86, 0.6);
@@ -564,7 +519,7 @@ html, body {
 		}
 
 		button {
-			margin: 20px;
+			margin: 20px 20px 0px;
 			display: block;
 			padding: 2px 12px;
 			font-family: 'Open Sans', sans-serif;
@@ -585,9 +540,47 @@ html, body {
 		}
 
 
+	/* c-social media */
+	.social-media {
+		width: 100%;
+		max-width: 220px;
+		margin: 50px auto 0px;
+		padding: 4px 15px;
+		box-sizing: border-box;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		background-color: rgba(97, 59, 60, 0.30);
+	}
+
+		/* social media icons */
+		.social-media a {
+			text-decoration: none;
+		}
+
+		.social-media a i {
+			font-family: FontAwesome;
+	    	font-style: normal;
+	    	color: rgb(86, 86, 86);
+	    	font-size: 22px;
+	    	margin: 0px 5px;
+	    	transition: 0.3s all;
+		}
+
+		.twitter-icon:hover {
+			color: rgb(30, 161, 242);
+			cursor: pointer;
+		}
+
+		.medium-icon:hover {
+			color: rgb(255, 255, 255);
+			cursor: pointer;
+		}
 
 
-/* 11-loading overlay */
+
+
+/* 9-loading overlay */
 #loading-overlay {
 	position: fixed;
 	top: 0px;
@@ -610,19 +603,6 @@ html, body {
 	.loading-overlay-content {
 		margin: auto;
 		text-align: center;
-	}
-
-	.loading-overlay-content img {
-		width: 40px;
-		position: relative;
-		top: 4px;
-	}
-
-	.loading-overlay-content h1 {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 15px;
-		margin: 0px;
-		color: rgb(86, 86, 86);
 	}
 
 
@@ -649,7 +629,7 @@ html, body {
 
 
 
-/* 12-media query */
+/* 10-media query */
 @media screen and (min-width: 450px) {
 
 	#fixed-logo {
@@ -680,30 +660,9 @@ html, body {
 		font-size: 22px;
 	}
 
-	.work-num span {
-		font-size: 22px;
-	}
-
-	.work-name h2 {
-		font-size: 26px;
-	}
-
-	.work-name span {
-		font-size: 14px;
-	}
-
-	.view-work a {
-		font-size: 18px;
-	}
-
 }
 
 @media screen and (min-width: 600px) {
-
-	#fixed-logo {
-		left: 4%;
-		width: 62px;
-	}
 
 	#toggle-menu {
 		right: 5%;
